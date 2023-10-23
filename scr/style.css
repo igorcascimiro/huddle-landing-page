@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-color: var(--bg-color);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .app-logo img {
+    height: 6.5vh;
+}
+
+.app-details {
+    display: flex;
+    padding-top: 6%;
+    color: #fff;
+    gap: 5rem;
+}
+
+.app-details img {
+    height: 62vh;
+}
+
+.app-details .app-info .slogan {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5vh;
+    font-weight: 600;
+    text-transform: capitalize;
+    height: 20vh;
+    aspect-ratio: 450 / 161;
+    padding-top: 10%;
+}
+
+.app-details .app-info .description {
+    font-weight: 300;
+    height: 10.4vh;
+    font-size: 2.3vh;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 4vh;
+    line-height: 1.5em;
+    opacity: 0.8;
+    aspect-ratio: 490 / 76.5;
+}
+
+.app-details .register-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: var(--bg-color);
+    background-color: #fff;
+    padding: 0.9em 3.7em;
+    font-size: 2.3vh;
+    border-radius: 30rem;
+    box-shadow: 4px 4px 15px #4d1f70;
+    margin-top: 7vh;
+}
+
+.social-media {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: right;
+    padding-top: 2vh;
+}
+
+.social-media a {
+    aspect-ratio: 1 / 1;
+    height: 5vh;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2.5vh;
+}
+
+.app-details .register-button:hover {
+    background-color: var(--button-hover-color);
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.social-media a:hover {
+    color: var(--social-media-hover-color);
+    border: 1px solid var(--social-media-hover-color);
+    transition: 0.3s ease-in-out;
+}

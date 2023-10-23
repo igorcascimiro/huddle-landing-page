@@ -1,0 +1,94 @@
+@media (max-width: 1100px) {
+
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat;
+        background-size: contain;
+        background-color: var(--bg-color);
+    }
+
+    .container {
+        aspect-ratio: 400 / 900;
+        height: 100vh;
+        padding: 5vh;
+        justify-content: center;
+        gap: 5vh;
+    }
+
+    .container .app-logo img {
+        width: 45%;
+    }
+
+    .app-details {
+        flex-direction: column;
+        aspect-ratio: 400 / 800;
+        width: 100%;
+        align-items: center;
+        gap: 7vh;
+    }
+
+    .app-details img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .information,
+    .app-info,
+    .slogan,
+    .description {
+        width: 100%;
+        text-align: center;
+    }
+
+    .information .app-info .slogan {
+        font-size: 2.8vh;
+        padding-top: 0px;
+        height: 9vh;
+    }
+
+    .information .app-info .description {
+        font-size: 1.8vh;
+        padding-top: 3%;
+    }
+
+    .app-details .register-button {
+        padding: 0.9em 5em;
+        font-size: 1.5vh;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+
+    .social-media a {
+        height: 3.5vh;
+        font-size: 1.5vh;
+
+    }
+}
+
+@media (min-width: 1100px) and (max-width:1320px) and (min-height: 800px) , (width:1440px) and (height:900px) {
+    body {
+        background-size: cover;
+    }
+    
+    .container .app-logo img {
+        height: 5.5vh;
+    }
+
+    .app-details img {
+        height: 50vh;
+    }
+
+
+    .app-details .app-info .slogan {
+        font-size: 4vh;
+        height: 17vh;
+    }
+
+    .app-details .app-info .description {
+        height: 8.5vh;
+        font-size: 1.9vh;
+        padding-top: 3vh;
+    }
+
+}
