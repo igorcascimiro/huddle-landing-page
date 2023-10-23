@@ -23,11 +23,13 @@ Users should be able to:
 
 *Desktop:*
 
-![Desktop-screenshot](image.png)
+![Animação-Desktop](https://github.com/igorcascimiro/huddle-landing-page/assets/138637092/9a5beec0-4d12-4ef8-949a-d4b13731fdb9)
+
 
 *Mobile:*
 
-![Mobile-screenshot](image-2.png)
+![Animação-Mobile](https://github.com/igorcascimiro/huddle-landing-page/assets/138637092/0a2254b6-153c-4062-823a-ef2860b22d78)
+
 
 ### Built with
 
